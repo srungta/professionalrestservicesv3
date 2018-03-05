@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.Libraries.Api.Controllers.Impl</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.Libraries.Api.Controllers.Impl.CustomersApiController">
+            <summary>
+            A Service that provides Customers Information connecting to CRM System.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Libraries.Api.Controllers.Impl.CustomersApiController.#ctor(Microsoft.Libraries.Business.Interfaces.ICustomersBusinessComponent)">
+            <summary>
+            Constructor which accepts business dependencies
+            </summary>
+            <param name="customersBusinessComponent">Customers Busines Component Dependency</param>
+        </member>
+        <member name="M:Microsoft.Libraries.Api.Controllers.Impl.CustomersApiController.FindCustomers(System.String)">
+            <summary>
+            An operation that helps to find customer records by customer name
+            </summary>
+            <param name="customerName">Search String</param>
+            <returns>Array of Customer Records</returns>
+        </member>
+        <member name="M:Microsoft.Libraries.Api.Controllers.Impl.CustomersApiController.FindCustomersByAddress(System.String)">
+            <summary>
+            An operation that finds customer records by address
+            </summary>
+            <param name="address">Address String</param>
+            <returns>An array of customer records</returns>
+        </member>
+        <member name="M:Microsoft.Libraries.Api.Controllers.Impl.CustomersApiController.GetCustomer(System.Int32)">
+            <summary>
+            An operation that finds a customer record by customer id
+            </summary>
+            <param name="customerId">Valid Customer Id</param>
+            <returns>Complete Customer Profile</returns>
+        </member>
+        <member name="M:Microsoft.Libraries.Api.Controllers.Impl.CustomersApiController.GetCustomers">
+            <summary>
+            An operation that retrieves all customer records.
+            </summary>
+            <returns>An array of customer records</returns>
+        </member>
+        <member name="M:Microsoft.Libraries.Api.Controllers.Impl.CustomersApiController.SaveCustomer(Microsoft.Libraries.Models.Customer)">
+            <summary>
+            An operation that allows to save a new customer
+            </summary>
+            <param name="customer">New Customer Record</param>
+            <returns>Saved and Valid Customer Record</returns>
+        </member>
+    </members>
+</doc>
