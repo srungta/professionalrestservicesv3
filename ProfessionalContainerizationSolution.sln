@@ -51,29 +51,33 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hosting", "Hosting", "{F0B3
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{971B52E0-394A-4E45-A97A-53DC6A9CAF5B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Libraries.Models", "Microsoft.Libraries.Models\Microsoft.Libraries.Models.csproj", "{3554B6AB-C460-47AB-8461-A0C57D9935B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Libraries.Models", "Microsoft.Libraries.Models\Microsoft.Libraries.Models.csproj", "{3554B6AB-C460-47AB-8461-A0C57D9935B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Libraries.ORM.Interfaces", "Microsoft.Libraries.ORM.Interfaces\Microsoft.Libraries.ORM.Interfaces.csproj", "{31B789B9-0CAA-48D1-A0AF-8354E4627368}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Libraries.ORM.Interfaces", "Microsoft.Libraries.ORM.Interfaces\Microsoft.Libraries.ORM.Interfaces.csproj", "{31B789B9-0CAA-48D1-A0AF-8354E4627368}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Libraries.ORM.Impl", "Microsoft.Libraries.ORM.Impl\Microsoft.Libraries.ORM.Impl.csproj", "{D5296057-A141-4927-B72F-8CC6C4260214}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Libraries.ORM.Impl", "Microsoft.Libraries.ORM.Impl\Microsoft.Libraries.ORM.Impl.csproj", "{D5296057-A141-4927-B72F-8CC6C4260214}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Libraries.DataAccess.Interfaces", "Microsoft.Libraries.DataAccess.Interfaces\Microsoft.Libraries.DataAccess.Interfaces.csproj", "{FDAC66B4-8F88-4D8B-8933-9176CDCC3AAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Libraries.DataAccess.Interfaces", "Microsoft.Libraries.DataAccess.Interfaces\Microsoft.Libraries.DataAccess.Interfaces.csproj", "{FDAC66B4-8F88-4D8B-8933-9176CDCC3AAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Libraries.DataAccess.Impl", "Microsoft.Libraries.DataAccess.Impl\Microsoft.Libraries.DataAccess.Impl.csproj", "{9EFC4E2F-57B3-45F1-BD6D-1FCAEEDFA78B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Libraries.DataAccess.Impl", "Microsoft.Libraries.DataAccess.Impl\Microsoft.Libraries.DataAccess.Impl.csproj", "{9EFC4E2F-57B3-45F1-BD6D-1FCAEEDFA78B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Libraries.Business.Validations.Interfaces", "Microsoft.Libraries.Business.Validations.Interfaces\Microsoft.Libraries.Business.Validations.Interfaces.csproj", "{7B35F6AD-0AA9-48E0-9BA6-44C71B2998F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Libraries.Business.Validations.Interfaces", "Microsoft.Libraries.Business.Validations.Interfaces\Microsoft.Libraries.Business.Validations.Interfaces.csproj", "{7B35F6AD-0AA9-48E0-9BA6-44C71B2998F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Libraries.Business.Validations.Impl", "Microsoft.Libraries.Business.Validations.Impl\Microsoft.Libraries.Business.Validations.Impl.csproj", "{28B7AA96-9807-4BBE-A80B-7520F8574530}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Libraries.Business.Validations.Impl", "Microsoft.Libraries.Business.Validations.Impl\Microsoft.Libraries.Business.Validations.Impl.csproj", "{28B7AA96-9807-4BBE-A80B-7520F8574530}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Libraries.Business.Interfaces", "Microsoft.Libraries.Business.Interfaces\Microsoft.Libraries.Business.Interfaces.csproj", "{96D9C02A-D42B-4CEC-BE24-3B85FB533D4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Libraries.Business.Interfaces", "Microsoft.Libraries.Business.Interfaces\Microsoft.Libraries.Business.Interfaces.csproj", "{96D9C02A-D42B-4CEC-BE24-3B85FB533D4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Libraries.Business.Impl", "Microsoft.Libraries.Business.Impl\Microsoft.Libraries.Business.Impl.csproj", "{A86F46D0-EEB1-43DC-9BF5-2520F83E4C2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Libraries.Business.Impl", "Microsoft.Libraries.Business.Impl\Microsoft.Libraries.Business.Impl.csproj", "{A86F46D0-EEB1-43DC-9BF5-2520F83E4C2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRMSystemServicesHosting", "CRMSystemServicesHosting\CRMSystemServicesHosting.csproj", "{6B229018-BFB3-4327-B960-9D352B360BEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRMSystemServicesHosting", "CRMSystemServicesHosting\CRMSystemServicesHosting.csproj", "{6B229018-BFB3-4327-B960-9D352B360BEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Libraries.Api.Controllers.Interfaces", "Microsoft.Libraries.Api.Controllers.Interfaces\Microsoft.Libraries.Api.Controllers.Interfaces.csproj", "{45B9C411-10B0-4B56-953E-8B9169058A42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Libraries.Api.Controllers.Interfaces", "Microsoft.Libraries.Api.Controllers.Interfaces\Microsoft.Libraries.Api.Controllers.Interfaces.csproj", "{45B9C411-10B0-4B56-953E-8B9169058A42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Libraries.Api.Controllers.Impl", "Microsoft.Libraries.Api.Controllers.Impl\Microsoft.Libraries.Api.Controllers.Impl.csproj", "{CDCE8AA2-366B-4C72-9315-BC5E531E59E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Libraries.Api.Controllers.Impl", "Microsoft.Libraries.Api.Controllers.Impl\Microsoft.Libraries.Api.Controllers.Impl.csproj", "{CDCE8AA2-366B-4C72-9315-BC5E531E59E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{6F6D8A09-9D4E-4DD8-A49C-C73A0B03A321}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRMSystemServicesHostingTests", "CRMSystemServicesHostingTests\CRMSystemServicesHostingTests.csproj", "{81B52FEE-F502-4406-B81C-F888EA7DE284}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +133,10 @@ Global
 		{CDCE8AA2-366B-4C72-9315-BC5E531E59E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDCE8AA2-366B-4C72-9315-BC5E531E59E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDCE8AA2-366B-4C72-9315-BC5E531E59E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81B52FEE-F502-4406-B81C-F888EA7DE284}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81B52FEE-F502-4406-B81C-F888EA7DE284}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81B52FEE-F502-4406-B81C-F888EA7DE284}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81B52FEE-F502-4406-B81C-F888EA7DE284}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -168,6 +176,8 @@ Global
 		{6B229018-BFB3-4327-B960-9D352B360BEB} = {F0B3DB97-E959-480F-B088-565A7F7E0E2D}
 		{45B9C411-10B0-4B56-953E-8B9169058A42} = {E3663AFA-E48F-44E0-B9BA-4580F347CC25}
 		{CDCE8AA2-366B-4C72-9315-BC5E531E59E2} = {FD490D39-1A10-4488-8A6A-D11F467CF098}
+		{6F6D8A09-9D4E-4DD8-A49C-C73A0B03A321} = {F0B3DB97-E959-480F-B088-565A7F7E0E2D}
+		{81B52FEE-F502-4406-B81C-F888EA7DE284} = {6F6D8A09-9D4E-4DD8-A49C-C73A0B03A321}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2736D00F-E308-42B6-B88F-D0D913AA7926}

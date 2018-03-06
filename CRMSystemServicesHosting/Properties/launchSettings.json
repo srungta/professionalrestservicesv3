@@ -13,6 +13,7 @@
       "launchBrowser": true,
       "launchUrl": "api/values",
       "environmentVariables": {
+        "Key": "Value",
         "CRMSystemDBv5ConnectionString": "ZGF0YSBzb3VyY2U9LjtpbnRlZ3JhdGVkIHNlY3VyaXR5PXNzcGk7aW5pdGlhbCBjYXRhbG9nPWNybXN5c3RlbWRidjU7",
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
